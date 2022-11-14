@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <div className='food'>
+    <div className='HeroSection'>
     </div>
   )
 }
