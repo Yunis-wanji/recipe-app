@@ -1,6 +1,56 @@
 *{
   margin: 0;
   padding: 0;
-  background-color:rgb(54, 54, 54);
+  /* background-image: url("/recipe-app/src/assets/melissa-walker-horn-vACInYhNjY0-unsplash.jpg"); */
+  object-fit: cover;
+  /* height: 100vh; */
+}
+h1{
+  color: green;
+  text-align: center;
+  padding: 50px 0;
 }
 
+.top-area{
+  /* background-image:url("/recipe-app/src/assets/plate.jpg"); */
+  background-color: aqua;
+  height:200px;
+}
+input{
+  border: 2px solid black;
+  height: 2rem;
+  width:300px;
+  font-size: 15px;
+  text-align: center;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+button{
+  padding: 5px 0;
+  font-size: 20px;
+  margin-top: 20px;
+  width:300px;
+  background-color: rgb(152, 231, 33);
+}
+.Display{
+  background-color: rgb(152, 231, 33);
+  height:300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+
+}
+.box{
+  border: 1px solid black;
+  margin: 10px 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  padding:50px 0;
+}
