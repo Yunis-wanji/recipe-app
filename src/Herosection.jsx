@@ -19,6 +19,7 @@ const url = `https://api.edamam.com/search?q=${value}&app_id=${appId}&app_key=${
 
 const getData = async () =>{
   const result = await Axios.get(url);
+  setRecipe(result.data.hits);
   console.log(result)
   setValue("")
   };
